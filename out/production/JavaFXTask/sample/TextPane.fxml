@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Label?>
+<VBox prefHeight="200.0" prefWidth="300.0"
+      xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="sample.TextPaneController">
+
+    <children>
+        <Label text="Add a word"/>
+        <TextArea fx:id="textInput" layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="300.0"/>
+    </children>
+
+</VBox>

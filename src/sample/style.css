@@ -1,0 +1,16 @@
+.text-area {
+    -fx-background-color:#6495ed;
+    -fx-font-family: 'Roboto';
+    -fx-font-size: 16;
+}
+
+.button {
+    -fx-background-color: #6495ed;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+.button:hover {
+    -fx-opacity: 0.7;
+}
+
